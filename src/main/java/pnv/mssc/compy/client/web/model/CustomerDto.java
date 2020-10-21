@@ -1,4 +1,4 @@
-package pnv.mssc.compy.web.model;
+package pnv.mssc.compy.client.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

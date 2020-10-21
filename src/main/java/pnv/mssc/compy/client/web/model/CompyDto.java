@@ -1,4 +1,4 @@
-package pnv.mssc.compy.web.model.v2;
+package pnv.mssc.compy.client.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,14 +7,15 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CompyDtoV2 {
+public class CompyDto {
 
     private UUID id;
     private String compyName;
-    private CompyTypeEnum compyStyle;
+    private String compyStyle;
     private Long upc;
 }

@@ -1,4 +1,4 @@
-package pnv.mssc.compy;
+package pnv.mssc.compy.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
